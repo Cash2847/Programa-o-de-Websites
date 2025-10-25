@@ -1,0 +1,36 @@
+body {
+    border: solid 50px white ;
+    background-color: rgb(255, 80, 36);
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    border: solid green;
+    background-color: green;
+}
+
+p {
+    color: white;
+    font: arial;
+}
+
+.preço {
+    float: right;
+}
+
+#Tiramisu {
+    text-align: center;
+}
+
+#Lasanha {
+    text-align: center;
+}
+
+#Spaghetti {
+    text-align: center;
+}
