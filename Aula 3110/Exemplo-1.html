@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a animação</title>
+    <style>
+
+        .forma {
+            width: 200px;
+            height: 200px;
+            border: solid 10px; 
+            border-color:  red green blue purple;
+            background-color: chocolate;
+            animation: girando 2s linear infinite;
+            margin: auto;
+        }
+
+        @keyframes girando {
+            0% {
+                background-color: purple;
+                transform: rotate(900deg);
+            }
+
+            25% {
+                background-color: red;
+            }
+            50% {
+            background-color: blue;
+            border-radius: 50%;
+            border-color: black;
+            }
+            75% {
+                background-color: purple;
+                transform: skew(30deg, 30deg);
+                border-color: black;
+            }
+            100% {
+                background-color: red;
+                border-color: black;
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha página com animação</h1>
+    <div class="forma"></div>
+</body>
+</html>
