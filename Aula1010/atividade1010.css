@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+#tabuleiro {
+    border: solid 2px;
+    border-color: tomato brown;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;   
+}
+
+.quadrado:nth-child(even) {
+    background-color: black;
+
+}
+
+.quadrado:nth-child(odd) {
+    background-color: lightgray;
+}
